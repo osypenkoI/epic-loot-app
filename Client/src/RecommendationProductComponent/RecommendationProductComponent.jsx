@@ -1,72 +1,75 @@
-import { FunctionComponent } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './RecommendationProductComponent.module.css';
 
+// Моковые данные для тестирования компонента
+const mockGameData = [
+  {
+    id: 1,
+    title: 'The Witcher 3: Wild Hunt',
+    price: '729₴',
+    imageSrc: 'WildHunt.png',
+  },
+  {
+    id: 2,
+    title: 'Diablo® IV',
+    price: '1 696₴',
+    imageSrc: 'Diablo4.png',
+  },
+  {
+    id: 3,
+    title: 'ELDEN RING',
+    price: '1 648₴',
+    imageSrc: 'EldenRing.png',
+  },
+  {
+    id: 4,
+    title: 'God of War Ragnarök',
+    price: '1 699₴',
+    imageSrc: 'GodOfWarRagnarok.png',
+  },
+];
 
 const RecommendationProductComponent = () => {
-  	return (
-    		<div className={styles.parent}>
-      			<div className={styles.div}>Ігри для вас</div>
-      			<div className={styles.frameParent}>
-        				<div className={styles.frameWrapper}>
-          					<div className={styles.frameGroup}>
-            						<div className={styles.imageParent}>
-              							<img className={styles.imageIcon} alt="" src="image.png" />
-              							<img className={styles.image111Icon} alt="" src="image 111.png" />
-            						</div>
-            						<div className={styles.theWitcher3WildHuntParent}>
-              							<div className={styles.diabloIv}>The Witcher 3: Wild Hunt</div>
-              							<div className={styles.group}>
-                								<div className={styles.div1}>729₴</div>
-                								<img className={styles.linearShoppingEcommerce} alt="" src="Linear / Shopping, Ecommerce / Cart Large Minimalistic.svg" />
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-        				<div className={styles.frameWrapper}>
-          					<div className={styles.frameGroup}>
-            						<img className={styles.frameChild} alt="" src="Frame 1831.png" />
-            						<div className={styles.theWitcher3WildHuntParent}>
-              							<div className={styles.diabloIv}>Diablo® IV</div>
-              							<div className={styles.group}>
-                								<div className={styles.div1}>1 696₴</div>
-                								<img className={styles.linearShoppingEcommerce} alt="" src="Linear / Shopping, Ecommerce / Cart Large Minimalistic.svg" />
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-        				<div className={styles.frameWrapper}>
-          					<div className={styles.frameGroup}>
-            						<img className={styles.frameChild} alt="" src="Frame 1831.png" />
-            						<div className={styles.theWitcher3WildHuntParent}>
-              							<div className={styles.diabloIv}>ELDEN RING</div>
-              							<div className={styles.group}>
-                								<div className={styles.div1}>1 648₴</div>
-                								<img className={styles.linearShoppingEcommerce} alt="" src="Linear / Shopping, Ecommerce / Cart Large Minimalistic.svg" />
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-        				<div className={styles.frameGroup}>
-          					<div className={styles.imageParent}>
-            						<img className={styles.imageIcon} alt="" src="image.png" />
-            						<img className={styles.image112Icon} alt="" src="image 112.png" />
-          					</div>
-          					<div className={styles.theWitcher3WildHuntParent}>
-            						<div className={styles.diabloIv}>God of War Ragnarök</div>
-            						<div className={styles.group}>
-              							<div className={styles.div1}>1 699₴</div>
-              							<img className={styles.linearShoppingEcommerce} alt="" src="Linear / Shopping, Ecommerce / Cart Large Minimalistic.svg" />
-            						</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div className={styles.buttondefaulttextButtonlar}>
-        				<div className={styles.diabloIv}>Показати більше</div>
-        				<div className={styles.vectorWrapper}>
-          					<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-        				</div>
-      			</div>
-    		</div>);
+  const [games, setGames] = useState([]);
+
+  useEffect(() => {
+    // Заглушка данных, чтобы проверить, как компонент работает с сервера
+    setGames(mockGameData);
+  }, []);
+
+  return (
+    <div className={styles.parent}>
+      <div className={styles.div}>Ігри для вас</div>
+      <div className={styles.frameParent}>
+        {games.map((game) => (
+          <div key={game.id} className={styles.frameWrapper}>
+            <div className={styles.frameGroup}>
+              <div className={styles.imageParent}>
+                <img className={styles.imageIcon} alt="" src={game.imageSrc} />
+              </div>
+              <div className={styles.theWitcher3WildHuntParent}>
+                <div className={styles.diabloIv}>{game.title}</div>
+                <div className={styles.group}>
+                  <div className={styles.div1}>{game.price}</div>
+                  <img
+                    className={styles.linearShoppingEcommerce}
+                    alt=""
+                    src="Cart Large Minimalistic.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className={styles.buttondefaulttextButtonlar}>
+        <div className={styles.diabloIv}>Показати більше</div>
+        <div className={styles.vectorWrapper}>
+          <img className={styles.vectorIcon} alt="" src="Vector.svg" />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default RecommendationProductComponent;

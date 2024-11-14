@@ -427,8 +427,8 @@
     top: 0px;
     left: 389px;
     background-color: #19191b;
-    width: 1051px;
-    height: 2172px;
+    width: 1250px;
+    height: 2000px;
     text-align: center;
     font-size: 16px;
 }
@@ -507,9 +507,9 @@
 .child {
     position: absolute;
     bottom: 0px;
-    left: calc(50% - 720px);
+    left: calc(50% - 760px);
     background-color: #111;
-    width: 1440px;
+    width: 1550px;
     height: 327px;
     overflow: hidden;
     font-size: 18px;

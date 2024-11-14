@@ -6,10 +6,6 @@
 }
 .imageIcon {
     position: absolute;
-    top: -7px;
-    left: -149px;
-    width: 549px;
-    height: 257px;
     object-fit: cover;
 }
 .image111Icon {

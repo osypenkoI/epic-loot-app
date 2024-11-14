@@ -36,9 +36,9 @@ const FooterComponent = () => {
             						<div className={styles.div1}>Зв’язатись з нами</div>
             						<div className={styles.epicloot}>@2024EpicLoot</div>
             						<div className={styles.parent3}>
-              							<img className={styles.icon} alt="" src="соц мережі.svg" />
-              							<img className={styles.icon1} alt="" src="соц мережі.svg" />
-              							<img className={styles.icon2} alt="" src="соц мережі.svg" />
+              							<img className={styles.icon} alt="" src="instagramm.svg" />
+              							<img className={styles.icon1} alt="" src="telegram.svg" />
+              							<img className={styles.icon2} alt="" src="twitter.svg" />
             						</div>
           					</div>
         				</div>
