@@ -1,0 +1,143 @@
+.div {
+    position: relative;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.imageIcon {
+    position: absolute;
+    top: -7px;
+    left: -149px;
+    width: 549px;
+    height: 257px;
+    object-fit: cover;
+}
+.image111Icon {
+    position: absolute;
+    top: -26px;
+    left: -0.25px;
+    width: 250.3px;
+    height: 333.7px;
+    object-fit: cover;
+}
+.imageParent {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div1 {
+    width: 72px;
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.linearShoppingEcommerce {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.theWitcher3WildHuntParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 8px;
+    gap: 16px;
+}
+.frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frameChild {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.diabloIv {
+    position: relative;
+    font-weight: 500;
+}
+.image112Icon {
+    position: absolute;
+    top: 0px;
+    left: -97px;
+    width: 444px;
+    height: 250px;
+    object-fit: cover;
+}
+.frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.vectorIcon {
+    width: 10px;
+    position: relative;
+    height: 18px;
+    object-fit: contain;
+}
+.vectorWrapper {
+    width: 12px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.buttondefaulttextButtonlar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    text-align: left;
+    font-size: 16px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+}
+

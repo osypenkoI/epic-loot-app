@@ -1,0 +1,232 @@
+.div {
+    position: relative;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.frameChild {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.hogwartsLegacy {
+    position: relative;
+    font-weight: 500;
+}
+.groupChild {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 65px;
+    height: 24px;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.vectorParent {
+    width: 67px;
+    position: relative;
+    height: 26px;
+}
+.div2 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+    color: #ff01dd;
+}
+.groupParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.linearShoppingEcommerce {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #808080;
+}
+.hogwartsLegacyParent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameWrapper {
+    height: 326px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.image109Icon {
+    position: absolute;
+    top: -23px;
+    left: -132px;
+    width: 514px;
+    height: 289.2px;
+    object-fit: cover;
+}
+.image110Icon {
+    position: absolute;
+    top: -9px;
+    left: 0px;
+    width: 268px;
+    height: 268px;
+    object-fit: cover;
+}
+.image109Parent {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.redDeadRedemption {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.vectorGroup {
+    width: 69px;
+    position: relative;
+    height: 26px;
+}
+.frameWrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imageIcon {
+    position: absolute;
+    top: -2px;
+    left: -18px;
+    width: 268px;
+    height: 268px;
+    object-fit: cover;
+}
+.theLastOf {
+    width: 173px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+.vectorContainer {
+    width: 68px;
+    position: relative;
+    height: 26px;
+}
+.imageIcon1 {
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 268px;
+    height: 268px;
+    object-fit: cover;
+}
+.vectorIcon {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 51px;
+    height: 24px;
+}
+.groupDiv {
+    width: 54px;
+    position: relative;
+    height: 26px;
+}
+.strayParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 8px;
+    gap: 8px;
+}
+.frameParent5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.vectorIcon1 {
+    width: 10px;
+    position: relative;
+    height: 18px;
+    object-fit: contain;
+}
+.vectorWrapper {
+    width: 12px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.buttondefaulttextButtonlar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    text-align: left;
+    font-size: 16px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+}
+
